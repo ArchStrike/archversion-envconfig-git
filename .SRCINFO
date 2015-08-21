@@ -1,0 +1,26 @@
+pkgbase = archversion-envconfig-git
+	pkgdesc = Archlinux Version Controller (Git version patched for runtime config using environment variables)
+	pkgver = 20150819.r85.6b7a29d
+	pkgrel = 1
+	url = https://github.com/seblu/archversion
+	arch = any
+	license = GPL2
+	makedepends = git
+	depends = python
+	depends = pyalpm
+	depends = python-xdg
+	provides = archversion
+	provides = archversion-git
+	conflicts = archversion
+	conflicts = archversion-git
+	replaces = archversion
+	replaces = archversion-git
+	source = archversion::git+https://github.com/seblu/archversion.git
+	source = environment_config.patch
+	source = unverified_ssl.patch
+	sha512sums = SKIP
+	sha512sums = 92274aaf992bd9b71ce2dfba60501e8016aea1eb615119a762d6446e6c0c20556ede3e8955d9b1fccc1b48a5fcbdec4efccb05da3894b6e94d667ad7aaf8e631
+	sha512sums = 3877a2b1338f0364e6718e2411c6c4a7388d545a1c54a2a4f321b5f533cba3623d3fa164e13cfc4816fb7d9f13f20337d9d13623a27f10461a9e496e044ce0b5
+
+pkgname = archversion-envconfig-git
+
