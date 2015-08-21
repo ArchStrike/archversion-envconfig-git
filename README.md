@@ -11,7 +11,7 @@ The environment variables that can be set for runtime configuration are:
 * `CONFIG_SENDMAIL`: The file containing configuration for the sendmail command (default: **sendmail.conf**)
 * `CACHE_PACKAGES`: The file containing the package version cache (default: **packages.cache**)
 
-Keep in mind that if you are currently in **/tmp** and want to run archversion using **/tmp/other_packages.conf**, the command `CONFIG_PACKAGES=other_packages.conf archversion` will be trying to use **~/.config/archversion/other_packages.conf** if no other variables are set. Instead, you should set the `CONFIG_PACKAGES` variable using an absolute value like this `CONFIG_PACKAGES=/tmp/other_packages.conf archversion`
+Keep in mind that if you are currently in **/tmp** and want to run archversion using **/tmp/other_packages.conf**, the command `CONFIG_PACKAGES=other_packages.conf archversion` will be trying to use **~/.config/archversion/other_packages.conf** if no other variables are set. Instead, you should set the `CONFIG_PACKAGES` variable using an absolute path like this `CONFIG_PACKAGES=/tmp/other_packages.conf archversion`
 
 ## Credits
 
