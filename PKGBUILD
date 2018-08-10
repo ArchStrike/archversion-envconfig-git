@@ -3,7 +3,7 @@
 
 _pkgname=archversion
 pkgname=$_pkgname-envconfig-git
-pkgver=20150819.r85.6b7a29d
+pkgver=20161231.r95.1d91b08
 pkgrel=1
 pkgdesc='Archlinux Version Controller (Git version patched for runtime config using environment variables)'
 url='https://github.com/seblu/archversion'
