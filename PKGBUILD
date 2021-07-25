@@ -3,8 +3,8 @@
 
 _pkgname=archversion
 pkgname=$_pkgname-envconfig-git
-pkgver=20161231.r95.1d91b08
-pkgrel=1
+pkgver=20181118.r99.0cc6f62
+pkgrel=2
 pkgdesc='Archlinux Version Controller (Git version patched for runtime config using environment variables)'
 url='https://github.com/seblu/archversion'
 arch=('any')
@@ -17,11 +17,9 @@ source=(
   'environment_config.patch'
   'unverified_ssl.patch'
 )
-sha512sums=(
-  'SKIP'
-  '92274aaf992bd9b71ce2dfba60501e8016aea1eb615119a762d6446e6c0c20556ede3e8955d9b1fccc1b48a5fcbdec4efccb05da3894b6e94d667ad7aaf8e631'
-  '3877a2b1338f0364e6718e2411c6c4a7388d545a1c54a2a4f321b5f533cba3623d3fa164e13cfc4816fb7d9f13f20337d9d13623a27f10461a9e496e044ce0b5'
-)
+sha512sums=('SKIP'
+            'd161516ebe0438892414c6897237f4e8c0e8f4343f752dad9405a24e00fddf0db058784d9f49334724416ea7f26d70134370729b4efe3d238ef7e3a91fb98ee2'
+            '3877a2b1338f0364e6718e2411c6c4a7388d545a1c54a2a4f321b5f533cba3623d3fa164e13cfc4816fb7d9f13f20337d9d13623a27f10461a9e496e044ce0b5')
 
 replaces=("$_pkgname" "$_pkgname-git")
 conflicts=("$_pkgname" "$_pkgname-git")

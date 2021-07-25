@@ -1,5 +1,5 @@
 diff --git a/src/lib/archversion/__init__.py.in b/src/lib/archversion/__init__.py.in
-index bc18b8b..81d091d 100644
+index e6b6e8d..19be001 100644
 --- a/src/lib/archversion/__init__.py.in
 +++ b/src/lib/archversion/__init__.py.in
 @@ -19,22 +19,23 @@
@@ -30,3 +30,14 @@ index bc18b8b..81d091d 100644
  
  # Annouced version (from autoconf)
  VERSION = "@VERSION@"
+@@ -43,7 +44,7 @@ VERSION = "@VERSION@"
+ # Advertise archversion version
+ # Try to disable caching
+ HTTP_HEADERS = {
+-	"User-Agent": "archversion v%s" % VERSION,
++	"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36",
+ 	"Pragma": "no-cache",
+ 	"Cache-Control": "no-cache, no-store, must-revalidate"
+-}
+\ No newline at end of file
++}
